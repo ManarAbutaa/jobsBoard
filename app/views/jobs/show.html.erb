@@ -1,0 +1,37 @@
+
+
+<%= render @job %>
+
+<br/>
+
+<% if @job.user == current_user %>
+  
+
+<div>
+  <%= link_to "Edit this job", edit_job_path(@job), class:"btn btn-secondary" %> 
+  
+</div>
+
+ <br/>
+
+ 
+<div>
+
+  <%= button_to "Destroy this job", @job, method: :delete, class:"btn btn-danger" %>
+  
+</div>
+<% end %>
+<br/>
+
+<div>
+
+  <%= link_to "Apply to this job", new_resume_path, class:"btn btn-success" %>
+
+</div>
+<br/>
+
+<div>
+<%= link_to "Back to jobs", jobs_path, class:"btn btn-secondary" %>
+</div>
+
+

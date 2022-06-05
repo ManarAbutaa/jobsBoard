@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Job_title: MyString
+  Job_description: MyString
+  Requirements: MyString
+  Time: MyString
+  Level: MyString
+
+two:
+  Job_title: MyString
+  Job_description: MyString
+  Requirements: MyString
+  Time: MyString
+  Level: MyString
